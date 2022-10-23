@@ -10,7 +10,6 @@ export default {
 const Template = (args) => <Task {...args} />;
 
 export const Default = Template.bind({});
-console.log(Default)
 
 Default.args = {
   task: {
@@ -19,8 +18,6 @@ Default.args = {
     state: "TASK_INBOX",
   },
 };
-
-console.log(Default)
 
 
 export const Pinned = Template.bind({});
